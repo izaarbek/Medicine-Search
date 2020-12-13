@@ -18,19 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".ui.main.MapsFragment" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/map"
-        app:title="Карта"
-        app:titleTextColor="@color/white" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

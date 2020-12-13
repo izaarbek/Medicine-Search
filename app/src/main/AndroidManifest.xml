@@ -32,7 +32,9 @@
             android:value="@string/google_maps_key" />
 
 
-        <activity android:name="uz.company.medicinesearch.ui.MainActivity" />
+        <activity android:name="uz.company.medicinesearch.ui.MainActivity"
+            android:windowSoftInputMode="adjustPan"
+            />
         <activity android:name="uz.company.medicinesearch.ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

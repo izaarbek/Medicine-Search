@@ -4,8 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFf569"
     tools:context="uz.company.medicinesearch.ui.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Theme.MedicineSearch"
+        android:layout_alignParentTop="true"
+        app:titleTextColor="@color/white"
+        />
+
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_main_fragment"
@@ -14,7 +25,11 @@
         android:layout_height="match_parent"
         android:layout_above="@id/bottom_navigation"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/main_nav" />
+        android:layout_below="@id/toolbarMain"
+        app:navGraph="@navigation/main_nav" >
+
+
+    </androidx.fragment.app.FragmentContainerView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

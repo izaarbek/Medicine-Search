@@ -29,4 +29,14 @@
         android:id="@+id/basketFargment"
         android:name="uz.company.medicinesearch.ui.fragments.BasketFargment"
         android:label="BasketFargment" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="uz.company.medicinesearch.ui.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/medicineFragment"
+        android:name="uz.company.medicinesearch.ui.fragments.MedicineFragment"
+        android:label="fragment_medicine"
+        tools:layout="@layout/fragment_medicine" />
 </navigation>
