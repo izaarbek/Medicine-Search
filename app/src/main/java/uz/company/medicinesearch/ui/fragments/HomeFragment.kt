@@ -1,4 +1,4 @@
-package uz.company.medicinesearch
+package uz.company.medicinesearch.ui.fragments
 
 import android.os.Bundle
 import android.view.View
@@ -6,10 +6,12 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import kotlinx.android.synthetic.main.fragment_home.*
 import uz.company.medicinesearch.models.Stat
-import kotlinx.android.synthetic.main.activity_home.*
+import uz.company.medicinesearch.R
+import uz.company.medicinesearch.adapter.StatAdapter
 
-class Home : Fragment(R.layout.activity_home) {
+class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private val statAdapter = StatAdapter()
 

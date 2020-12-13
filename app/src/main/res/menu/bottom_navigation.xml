@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/nav_home"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Главная" />
 
     <item
-        android:id="@+id/nav_royhat"
+        android:id="@+id/favoritesFragment"
         android:icon="@drawable/ic_baseline_receipt_long_24"
         android:title="Избранное" />
 
     <item
-        android:id="@+id/nav_karzina"
+        android:id="@+id/basketFargment"
         android:icon="@drawable/ic_baseline_local_pharmacy_24"
         android:title="Корзина" />
 
     <item
-        android:id="@+id/nav_location"
+        android:id="@+id/mapsFragment"
         android:icon="@drawable/ic_baseline_add_location_alt_24"
         android:title="Карта" />
 
     <item
-        android:id="@+id/nav_menu"
+        android:id="@+id/profileFragment"
         android:iconTint="@color/black"
         android:icon="@drawable/ic_baseline_perm_contact_calendar_24"
         android:title="Меню" />

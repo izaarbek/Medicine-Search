@@ -1,4 +1,4 @@
-package uz.company.medicinesearch
+package uz.company.medicinesearch.ui.fragments
 
 import android.os.Bundle
 import android.view.View
@@ -9,8 +9,9 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import uz.company.medicinesearch.R
 
-class Карта : Fragment(R.layout.activity_xarita) {
+class MapsFragment : Fragment(R.layout.fragmnet_maps) {
 
     private val callback = OnMapReadyCallback { googleMap ->
         /**

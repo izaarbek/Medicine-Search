@@ -1,4 +1,4 @@
-package uz.company.medicinesearch;
+package uz.company.medicinesearch.ui.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,11 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import uz.company.medicinesearch.R;
 
-public class Профил extends Fragment {
+
+public class ProfileFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_menu, container, false);
+        return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 }
