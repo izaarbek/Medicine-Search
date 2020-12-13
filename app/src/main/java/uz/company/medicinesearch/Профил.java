@@ -1,4 +1,4 @@
-package com.example.medicinesearch;
+package uz.company.medicinesearch;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class Карта extends Fragment {
 
+public class Профил extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_xarita, container, false);
+        return inflater.inflate(R.layout.activity_menu, container, false);
     }
 }

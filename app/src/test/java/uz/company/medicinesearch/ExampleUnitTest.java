@@ -1,4 +1,4 @@
-package com.example.medicinesearch;
+package uz.company.medicinesearch;
 
 import org.junit.Test;
 
